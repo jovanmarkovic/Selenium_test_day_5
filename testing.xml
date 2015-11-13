@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Page Object test example">
+<parameter name="appURL" value="https://www.google.com/"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="sample test">
+    <classes>
+      <class name="TestDraggable"/>
+      <class name="TestRegistration"/>
+      <class name="TestSelection"/>
+      <class name="TestSlider"/>
+      <class name="TestTooltip"/>
+    </classes>
+  </test>
+</suite>
